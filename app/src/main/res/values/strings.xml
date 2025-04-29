@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SIV1</string>
+    <string name="CrearCuenta">Crear Cuenta</string>
+    <string name="EditarCuenta">Editar Cuenta</string>
+    <string name="Nombres">Nombres</string>
+    <string name="Telefono">Telefono</string>
+    <string name="Cedula">Cedula</string>
+    <string name="Id">Id</string>
+    <string name="Contrasena">Contraseña</string>
+    <string name="Direccion">Dirección</string>
+    <string name="Crear">Crear</string>
+    <string name="Editar">Editar</string>
+    <string name="Actualizar">Actualizar</string>
+    <string name="BuscarUsuario">Buscar</string>
+    <string name="EliminarUsuario">Eliminar</string>
+    <string name="TienesCuenta">¿Tienes una cuenta?</string>
+    <string name="iniciarSesion">Iniciar Sesión</string>
+    <string name="img_logo_restaurante">Logo Restaurante</string>
+    <string name="CheckBox">Acepto los Términos y Condicones</string>
+    <string name="img_Logo">Logo Restaurante</string>
+    <string name="bienvenido">¡Hola! Qué bueno verte de nuevo</string>
+    <string name="Btn_Orden">Pedir Sin Registrame</string>
+    <string name="Btn_Login">INICIAR SESIÓN</string>
+    <string name="OlvidarContraseña">¿Has olvidado tu contraseña?</string>
+    <string name="txt_Sin_Cuenta">Si no tienes cuenta.</string>
+    <string name="txt_Register">REGISTRATE AQUÍ</string>
+</resources>
