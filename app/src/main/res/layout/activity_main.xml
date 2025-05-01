@@ -94,7 +94,7 @@
                 android:textStyle="italic" />
 
             <Button
-                android:id="@+id/btn_inicio_sesión"
+                android:id="@+id/btn_inicio_sesion"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
