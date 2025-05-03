@@ -24,4 +24,6 @@
     <string name="OlvidarContraseña">¿Has olvidado tu contraseña?</string>
     <string name="txt_Sin_Cuenta">Si no tienes cuenta.</string>
     <string name="txt_Register">REGISTRATE AQUÍ</string>
+    <string name="txt_Nombre_Negocio">SAZÓN CHEN</string>
+    <string name="txt_Realizar_Pedido">Realizar Pedido</string>
 </resources>
