@@ -2,12 +2,15 @@ package com.example.siv1;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 public class MainActivity4 extends AppCompatActivity {
+private ConstraintLayout straBtn;
 
     TextView tvCedula, tvNombre, tvTelefono, tvPassword;
 
@@ -33,5 +36,13 @@ public class MainActivity4 extends AppCompatActivity {
         tvNombre.setText(name);
         tvTelefono.setText(telefono);
         tvPassword.setText(password);
+
+        straBtn=findViewById(R.id.starBtn);
+        straBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity4.this, MainActivity5.class));
+            }
+        });
     }
 }

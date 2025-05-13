@@ -21,7 +21,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/background_intro" />
+        app:srcCompat="@drawable/background_intro_siv2" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -70,6 +70,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:text="@string/Cedula"
+                android:textColor="#ffffff"
                 android:textSize="22sp" />
 
             <TextView
@@ -77,6 +78,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
+                android:textColor="#ffffff"
                 android:text=""
                 android:textSize="22sp" />
         </LinearLayout>
@@ -92,6 +94,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:text="@string/Nombres"
+                android:textColor="#ffffff"
                 android:textSize="22sp" />
 
             <TextView
@@ -99,6 +102,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
+                android:textColor="#ffffff"
                 android:text=""
                 android:textSize="22sp" />
         </LinearLayout>
@@ -113,6 +117,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
+                android:textColor="#ffffff"
                 android:text="@string/Telefono"
                 android:textSize="22sp" />
 
@@ -121,6 +126,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="35dp"
+                android:textColor="#ffffff"
                 android:text=""
                 android:textSize="22sp" />
         </LinearLayout>
@@ -134,6 +140,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
+                android:textColor="#ffffff"
                 android:text="@string/Contrasena"
                 android:textSize="22sp" />
 
@@ -142,6 +149,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
+                android:textColor="#ffffff"
                 android:inputType="textPassword"
                 android:text=""
                 android:textSize="22sp" />
@@ -150,12 +158,13 @@
     </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/starBtn"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="75dp"
-        android:background="@drawable/orange_button"
+        android:background="@drawable/green_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -166,7 +175,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txt_Realizar_Pedido"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="25sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
