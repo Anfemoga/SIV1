@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView tv_registrar;
     EditText etcard, etpassword;
-    Button btn_log;
+    Button btn_log, btn_SReg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,12 +34,16 @@ public class MainActivity extends AppCompatActivity {
         etpassword = findViewById(R.id.etPassword);
 
         btn_log = findViewById(R.id.btn_inicio_sesion);
+        btn_SReg = findViewById(R.id.btn_sin_registro);
 
 
         tv_registrar.setOnClickListener(v -> {
             Intent intentReg = new Intent(MainActivity.this, MainActivity2.class);
             MainActivity.this.startActivity(intentReg);
-
+        });
+        btn_SReg.setOnClickListener(v -> {
+            Intent intentSReg = new Intent(MainActivity.this, MainActivity5.class);
+            MainActivity.this.startActivity(intentSReg);
         });
 
         btn_log.setOnClickListener(v -> {
