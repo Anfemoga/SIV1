@@ -45,6 +45,7 @@ dependencies {
     annotationProcessor (libs.compiler)
     implementation (libs.glide.v4160)
     annotationProcessor (libs.compiler.v4110)
+    implementation (libs.gson.v2131)
 
 
 
