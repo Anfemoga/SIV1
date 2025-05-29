@@ -135,7 +135,7 @@ public class MainActivity3 extends AppCompatActivity implements View.OnClickList
         StringRequest stringRequest = new StringRequest(
                 Request.Method.POST,
                 URL,
-                response -> Toast.makeText(MainActivity3.this, "Updated Successfully!!!", Toast.LENGTH_LONG).show(),
+                response -> Toast.makeText(MainActivity3.this, "Actualizado exitosamente!!!", Toast.LENGTH_LONG).show(),
                 error -> {
 
                 }
@@ -160,7 +160,7 @@ public class MainActivity3 extends AppCompatActivity implements View.OnClickList
         StringRequest stringRequest = new StringRequest(
                 Request.Method.POST,
                 URL,
-                response -> finish(),
+                response -> Toast.makeText(MainActivity3.this, "Usuario Eliminado exitosamente!!!", Toast.LENGTH_LONG).show(),
                 error -> {
 
                 }

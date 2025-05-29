@@ -66,7 +66,7 @@
                 android:drawablePadding="8dp"
                 android:ems="10"
                 android:hint="@string/Cedula"
-                android:inputType="text"
+                android:inputType="number"
                 android:padding="8dp"
                 android:textColor="@color/black"
                 android:textColorHighlight="@color/cardview_dark_background" />
@@ -118,6 +118,7 @@
                 android:drawablePadding="8dp"
                 android:ems="10"
                 android:hint="@string/Contrasena"
+                android:maxLength="10"
                 android:inputType="textPassword"
                 android:padding="8dp"
                 android:textColor="@color/black"
@@ -168,7 +169,7 @@
                     android:drawablePadding="1dp"
                     android:ems="10"
                     android:hint="@string/Id"
-                    android:inputType="text"
+                    android:inputType="number"
                     android:padding="8dp"
                     android:textColor="@color/black"
                     android:textColorHighlight="@color/cardview_dark_background" />

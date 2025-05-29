@@ -2,6 +2,9 @@ package com.example.siv1;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.InputFilter;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -40,6 +43,8 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
 
         btnCreate.setOnClickListener(this);
         btnFetch.setOnClickListener(this);
+
+
     }
 
     private void initUI(){
@@ -54,7 +59,11 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         btnCreate = findViewById(R.id.btnCreate);
         btnFetch = findViewById(R.id.btnFetch);
 
+
+
+
     }
+
 
     @Override
     public void onClick(View v) {
@@ -82,7 +91,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         StringRequest stringRequest = new StringRequest(
                 Request.Method.POST,
                 URL1,
-                response -> Toast.makeText(MainActivity2.this, "Correct", Toast.LENGTH_SHORT).show(),
+                response -> Toast.makeText(MainActivity2.this, "Usuario Creado Exitosamente", Toast.LENGTH_SHORT).show(),
                 error -> {
 
                 }

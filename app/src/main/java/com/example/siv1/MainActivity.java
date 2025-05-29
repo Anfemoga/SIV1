@@ -70,8 +70,8 @@ public class MainActivity extends AppCompatActivity {
 
                     }else{
                         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-                        builder.setMessage("error de login")
-                                .setNegativeButton("Retry", null)
+                        builder.setMessage("usuario o contraseña incorrectos")
+                                .setNegativeButton("Intente Nuevamente", null)
                                 .create().show();
 
                     }
